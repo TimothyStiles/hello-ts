@@ -10,4 +10,4 @@ It's very likely to work on your machine as well but I offer no warranties and a
 
 TTFN and Happy Hacking!
 
--Tim
+-Squish
