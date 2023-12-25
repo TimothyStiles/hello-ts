@@ -6,5 +6,17 @@
                 "cmd": "npm run test"
             }
         ]
-    },
+    }, 
+    "coverage-gutters.showGutterCoverage": true,
+    "auto-run-command.rules": [
+        {
+          "condition": [
+            // this should be removed if you want this to run on all files, everywhere, all the time
+            "isRootFolder: hello-ts",
+          ],
+          "command": "coverage-gutters.watchCoverageAndVisibleEditors",
+          "message": "Super condition met. Running "
+        }
+      ]
+    
 }
