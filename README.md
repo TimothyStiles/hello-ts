@@ -17,6 +17,7 @@ All of the example code we're testing can be found in [src](./src) and comes fro
 ## install
 
 This assumes you already have npm (or equivalent) and VScode installed
-`git clone https://github.com/TimothyStiles/hello-ts && cd hello-ts && npm install && code .`
+
+```git clone https://github.com/TimothyStiles/hello-ts && cd hello-ts && npm install && code .```
 
 Hit `command+s` to save and `src/index.js` should have the code gutters like in the above screenshot
