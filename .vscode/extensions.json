@@ -1,0 +1,5 @@
+{
+    "recommendations": ["ms-vscode.vscode-typescript-next", // this is just what you need for TS anyways
+                        "emeraldwalk.runonsave", // this is the extension that runs the command on save
+                        "ryanluker.vscode-coverage-gutters"] // is part of code highlighting for coverage
+}
