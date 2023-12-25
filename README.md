@@ -28,4 +28,4 @@ Then:
 4. Open `src/index.js`.
 5. Hit `command + s`
 
- Then `src/index.js` should have the code gutters like in the above screenshot.
+ Now `src/index.js` should have the code gutters like in the above screenshot.
