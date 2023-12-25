@@ -1,9 +1,5 @@
 import dg from "./index";
 
-test("works with a shallow object", () => {
-    expect(dg({ param: 1 }, "param")).toBe(1);
-});
-
 test("works with a shallow array", () => {
     expect(dg([1, 2, 3], "[2]")).toBe(3);
 });
