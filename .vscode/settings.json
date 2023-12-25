@@ -7,11 +7,24 @@
             }
         ]
     }, 
-    "coverage-gutters.showGutterCoverage": true,
+    // "coverage-gutters.showGutterCoverage": true,
+    "coverage-gutters.coverageColors": [
+        "#d54e53",
+        "#e78c45",
+        "#e7c547",
+        "#b9ca4a",
+        "#70c0b1",
+        "#7aa6da",
+        "#c397d8"
+      ],
+      // "coverage-gutters.showLineCoverage": true,
+      "coverage-gutters.showStatusBarTotalCoverage": true,
+      // "coverage-gutters.showRulerCoverage": true,
+      "coverage-gutters.showStatusBarCoverage": true,
     "auto-run-command.rules": [
         {
           "condition": [
-            // this should be removed if you want this to run on all files, everywhere, all the time
+            // this could be removed if you want this to run on all files, everywhere, all the time
             "isRootFolder: hello-ts",
           ],
           "command": "coverage-gutters.watchCoverageAndVisibleEditors",
