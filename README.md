@@ -2,9 +2,11 @@
 
 hello-ts is a simple example repo to show how you can get started with test driven development in TypeScript.
 
-Go has in-line running tests, debugging, and code highlighting baked into their official vscode extension but it turns out most other languages don't have code hightlighting.
+Go has in-line running tests, debugging, and code highlighting baked into their official vscode extension but it turns out most other languages don't have code hightlighting like this by default. This repo shows how you can get started with test driven development in TypeScript with code highlighting in vs-code.
 
-I'm not a fan of JS/TS but had to muck with it recently and desperately wanted the same features that come standard with the Go vs-code extention and figured out how to 95% of the save functionality through this goofy but still useful setup.
+![Example screenshot of golang code from [poly](https://github.com/bebop/poly) covered by tests being highlighted green.](./screenshots/golang-gutters.png)
+
+I'm not really a JS/TS developer but went down this rabbit hole when exploring vs-code extension development. I was surprised to find that there wasn't a simple way to get code highlighting like this for TypeScript. I'm sure there are other ways to do this but this is the simplest way I found.
  
 ![Example screenshot of typescript code in this repo covered by tests being highlighted green.](./screenshots/typescript-gutters.png)
 
@@ -26,3 +28,7 @@ Then:
 5. Hit `command + s`
 
  Now `src/index.js` should have the code gutters like in the above screenshot.
+
+If you're into other languages, check out:
+
+    * [hello-rs](https://github.com/TimothyStiles/hello-rs) for Rust
