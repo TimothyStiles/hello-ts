@@ -13,7 +13,7 @@ I'm not really a JS/TS developer but went down this rabbit hole when exploring v
 All of the example code we're testing can be found in [src](./src) and comes from this article by @janis_t on twitter [article](https://www.typescriptbites.io/articles/build-test-and-publish-typescript-npm-package-2022) by [@janis_t on twitter](https://twitter.com/janis_t).
 
 
-## install
+## Install
 
 This assumes you already have npm (or equivalent) and VScode installed
 
@@ -29,6 +29,18 @@ Then:
 
  Now `src/index.js` should have the code gutters like in the above screenshot.
 
-If you're into other languages, check out:
 
-    * [hello-rs](https://github.com/TimothyStiles/hello-rs) for Rust
+## Other Languages
+* [hello-rs](https://github.com/TimothyStiles/hello-rs) (rust)
+
+
+## Sponsor
+
+* **[Sponsor](https://github.com/sponsors/TimothyStiles):** 🤘 Thanks for your support 🤘
+
+
+## License
+
+* [MIT](LICENSE)
+
+* Copyright (c) 2023 Timothy Stiles
