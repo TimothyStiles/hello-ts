@@ -9,6 +9,9 @@
                         "ryanluker.vscode-coverage-gutters",
 
                         // is used to watch files for code coverage on start via coverage gutters above
-                        "gabrielgrinberg.auto-run-command"
+                        "gabrielgrinberg.auto-run-command",
+
+                        // debugging extension for inline jest debugging
+                        "firsttris.vscode-jest-runner"
                         ] 
 }
