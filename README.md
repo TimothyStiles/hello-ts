@@ -6,7 +6,7 @@ Go has in-line running tests, debugging, and code highlighting baked into their 
 
 ![Example screenshot of golang code from [poly](https://github.com/bebop/poly) covered by tests being highlighted green.](./screenshots/golang-gutters.png)
 
-I'm not really a JS/TS developer but went down this rabbit hole when exploring vs-code extension development. I was surprised to find that there wasn't a simple way to get code highlighting like this for TypeScript. I'm sure there are other ways to do this but this is the simplest way I found.
+When I first got started with TypeScript I was surprised to find that there wasn't a simple way to get code highlighting like this. I'm sure there are other ways to do this but this is the simplest way I found.
  
 ![Example screenshot of typescript code in this repo covered by tests being highlighted green.](./screenshots/typescript-gutters.png)
 
